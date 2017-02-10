@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<title>P2P file serving test</title>
+	<style>
+		.stats {
+			padding: 20px 50px;
+			background-color: #ddd;
+			border-radius: 16px;
+		}
+		img {
+			width: 100%;
+		}
+	</style>
+	<script type="text/javascript" src="/js/peer.min.js" ></script>
+	<script type="text/javascript" src="/js/peer-connect.js"></script>
+</head>
+<body>
+	<div class="stats">
+		<p class="server">Server:
+			<span id="server-count">0</span> file(s)
+			 /
+			<span id="server-size">0</span> bytes
+		</p>
+		<p class="peer">Peer:
+			<span id="peer-count">0</span> file(s)
+			 /
+			<span id="peer-size">0</span> bytes
+		</p>
+		<ul id="peerlist">
+		</ul>
+	</div>
+	<img data-src="/img/1.png" />
+
+	<img data-src="/img/2.png" />
+	<img data-src="/img/3.png" />
+	<img data-src="/img/4.png" />
+	<img data-src="/img/5.png" />
+	<img data-src="/img/6.png" />
+	<img data-src="/img/7.png" />
+	<img data-src="/img/8.png" />
+	<img data-src="/img/9.png" />
+	<img data-src="/img/red.png" />
+
+</body>
+</html>
